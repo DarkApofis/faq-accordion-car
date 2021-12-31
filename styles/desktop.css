@@ -1,0 +1,39 @@
+main{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 920px;
+    height: 510px;
+}
+.box-img{
+    position: absolute;
+    z-index: 1;
+    top: calc(50% - 50px);
+    left: calc(0% - 95.5px);
+    display: block;
+}
+picture{
+    position: static;
+    width: 472px;
+    height: 359px;
+    overflow: hidden;
+}
+picture img{
+    position: relative;
+    left: calc(0% - 80px);
+}
+section{
+    margin-right: 100px;
+    padding-top: 70px;
+    width: 364px;
+    height: 100%;
+    overflow-y: scroll;
+}
+h1{
+    text-align: left;
+}
+.accordion_item{
+    width: 100%;
+}
